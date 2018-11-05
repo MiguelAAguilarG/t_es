@@ -3,6 +3,7 @@ tiempos verbales del indicativo en español
 
 Para entender los programas en el repositorio, ver link para aprender los tiempos verbales en español y su ubicación temporal
 http://www.rae.es/diccionario-panhispanico-de-dudas/apendices/modelos-de-conjugacion-verbal
+
 tiempos_lista= [
 'presente',
 
