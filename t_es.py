@@ -4,19 +4,28 @@ import os
 #http://www.rae.es/diccionario-panhispanico-de-dudas/apendices/modelos-de-conjugacion-verbal
 	
 tiempos_lista= [
-'presente',
+'indicativo. presente',
 
-'preterito perfecto simple/preterito',
-'preterito imperfecto/copreterito',
-'preterito pluscuamperfecto/antecopreterito',
-'preterito perfecto compuesto/antepresente',
+'indicativo. preterito perfecto simple/preterito',
+'indicativo. preterito imperfecto/copreterito',
+'indicativo. preterito pluscuamperfecto/antecopreterito',
+'indicativo. preterito perfecto compuesto/antepresente',
 
-'futuro simple/futuro',
-'futuro compuesto/antefuturo',
+'indicativo. futuro simple/futuro',
+'indicativo. futuro compuesto/antefuturo',
 
 
-'condicional simple/pospreterito',
-'condicional compuesto/antepospreterito']
+'indicativo. condicional simple/pospreterito',
+'indicativo. condicional compuesto/antepospreterito',
+
+'subjuntivo. presente',
+
+'subjuntivo. pretérito imperfecto/pretérito',
+'subjuntivo. pretérito pluscuamperfecto/antepretérito',
+'subjuntivo. pretérito perfecto compuesto/antepresente',
+
+'subjuntivo. futuro simple/futuro',
+'subjuntivo. futuro compuesto/antefuturo']
 
 verbos1_lista = ['amar', 'cantar', 'hablar', 'tomar','temer','partir','anunciar',
 'enviar','averiguar','actuar','bailar','averiguar','aislar','causar']
@@ -63,7 +72,7 @@ while validacion == '':
 	#conjugado_lista.append(x)
 	#completo_lista.append(conjugado_lista[i])
 
-	validacion = input('Continuar [enter]: ')
+	validacion = input('Continuar [enter]/ Salir [cualquier tecla]: ')
 	i = i+1
 
 '''def escribir_fichero(datos,numero,lista):
